@@ -1,0 +1,12 @@
+# Terminal Clock
+# ver.1
+stty -echo
+exitFromScript=
+until [[ $exitFromScript = q ]]
+do
+clear
+curtime=`date +%H:%M:%S`
+echo "$curtime"
+read -n 1 -t 0.01 exitFromScript
+done
+stty echo
