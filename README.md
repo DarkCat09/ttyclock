@@ -1,2 +1,3 @@
-# ttyclock
-This is my clock for Terminal
+# TTY-Clock
+This is my clock for Android/Linux-Terminal.
+It is not fork.
